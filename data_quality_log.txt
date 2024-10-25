@@ -1,0 +1,406 @@
+2024-08-12 15:23:58,102 - INFO -      PlayerID  TeamID               Name    Position DateOfBirth  Nationality  \
+0           1       1   Daniel Hernandez  Midfielder  1981-03-06      Spanish   
+1           2       1        Henry Brown     Forward  1991-02-06    Brazilian   
+2           3       1   Alexander Miller  Midfielder  1985-03-30  Argentinian   
+3           4       1  Michael Hernandez    Defender  1996-08-06      Spanish   
+4           5       1    Henry Rodriguez     Forward  1995-09-22      English   
+..        ...     ...                ...         ...         ...          ...   
+394       396      20       James Garcia  Goalkeeper  1989-07-20       German   
+395       397      20      Liam Martinez  Midfielder  2000-09-11       German   
+396       398      20      Oliver Miller  Goalkeeper  1989-07-23      Spanish   
+397       399      20    James Rodriguez  Goalkeeper  1982-01-09       French   
+398       400      20  William Hernandez    Defender  1987-11-18      Spanish   
+
+    ContractUntil  MarketValue  
+0      2025-06-30      5000000  
+1      2023-06-30      9000000  
+2      2027-06-30      2000000  
+3      2025-06-30     16000000  
+4      2024-06-30     16000000  
+..            ...          ...  
+394    2024-06-30     10000000  
+395    2025-06-30     50000000  
+396    2025-06-30     26000000  
+397    2025-06-30     23000000  
+398    2023-06-30     22000000  
+
+[399 rows x 8 columns] table Contains: Number of records: 399
+2024-08-12 15:23:58,117 - INFO -      MatchID        Date  HomeTeamID  AwayTeamID  HomeTeamScore  \
+0          1  2023-11-06           5          12              2   
+1          2  2023-08-15           8           3              3   
+2          3  2023-09-21           4           9              1   
+3          4  2023-10-11           7          10              0   
+4          5  2023-12-05           6          11              1   
+..       ...         ...         ...         ...            ...   
+205      206  2022-02-02           9           5              1   
+206      207  2022-12-20          11           8              1   
+207      208  2023-11-24          14          12              4   
+208      209  2022-08-13           4          19              5   
+209      210  2021-07-03          18           4              5   
+
+     AwayTeamScore           Stadium           Referee  
+0                1      Venice Field  Mark Clattenburg  
+1                3  Marseille Ground         Mike Dean  
+2                0       Napoli Park    Anthony Taylor  
+3                2        Lyon Arena    Michael Oliver  
+4                1     Paris Stadium   Martin Atkinson  
+..             ...               ...               ...  
+205              0     Bordeaux Park     Chris Johnson  
+206              3    London Stadium     Michael Brown  
+207              1      Chelsea Park     Michael Brown  
+208              1       Napoli Park       David Smith  
+209              2   Valencia Ground     Michael Jones  
+
+[210 rows x 8 columns] table Contains: Number of records: 210
+2024-08-12 15:23:58,125 - INFO -      MatchID        Date  HomeTeamID  AwayTeamID  HomeTeamScore  \
+0          1  2023-11-06           5          12              2   
+1          2  2023-08-15           8           3              3   
+2          3  2023-09-21           4           9              1   
+3          4  2023-10-11           7          10              0   
+4          5  2023-12-05           6          11              1   
+..       ...         ...         ...         ...            ...   
+205      206  2022-02-02           9           5              1   
+206      207  2022-12-20          11           8              1   
+207      208  2023-11-24          14          12              4   
+208      209  2022-08-13           4          19              5   
+209      210  2021-07-03          18           4              5   
+
+     AwayTeamScore           Stadium           Referee  
+0                1      Venice Field  Mark Clattenburg  
+1                3  Marseille Ground         Mike Dean  
+2                0       Napoli Park    Anthony Taylor  
+3                2        Lyon Arena    Michael Oliver  
+4                1     Paris Stadium   Martin Atkinson  
+..             ...               ...               ...  
+205              0     Bordeaux Park     Chris Johnson  
+206              3    London Stadium     Michael Brown  
+207              1      Chelsea Park     Michael Brown  
+208              1       Napoli Park       David Smith  
+209              2   Valencia Ground     Michael Jones  
+
+[210 rows x 8 columns] table Contains: Number of records: 210
+2024-08-12 15:23:58,135 - INFO -      StatID  PlayerID  MatchID  Goals  Assists  YellowCards  RedCards  \
+0         1       317       56      0      NaN            0         0   
+1         2       290      114      3      NaN            0         0   
+2         3       162       54      1      NaN            0         0   
+3         4        87       84      1      NaN            1         0   
+4         6        43       54      0      NaN            1         0   
+..      ...       ...      ...    ...      ...          ...       ...   
+993     996       138      193      1      2.0            1         1   
+994     997        12      109      1      2.0            0         0   
+995     998       217      122      3      2.0            1         1   
+996     999       391       13      1      1.0            1         1   
+997    1000         3      160      0      2.0            0         0   
+
+     MinutesPlayed  
+0               90  
+1               90  
+2               45  
+3               45  
+4               90  
+..             ...  
+993             45  
+994             45  
+995             75  
+996             75  
+997             45  
+
+[998 rows x 8 columns] table Contains: Number of records: 998
+2024-08-12 15:23:58,141 - INFO -     TransferID  PlayerID  FromTeamID  ToTeamID TransferDate  TransferFee  \
+0            1         1           1         3   2022-01-15    5200000.0   
+1            2         3           1         2   2021-12-10    2200000.0   
+2            3         6           1         4   2023-07-05   30000000.0   
+3            4         9           1         5   2022-08-25   26000000.0   
+4            5        12           1         6   2021-09-15   11000000.0   
+..         ...       ...         ...       ...          ...          ...   
+75          76         4           1         8   2023-10-17   16000000.0   
+76          77        31           2         6   2023-10-24   28000000.0   
+77          78        35           2         3   2023-10-31   16000000.0   
+78          79        16           1        18   2023-11-07    8000000.0   
+79          80        19           1        13   2023-11-14    9000000.0   
+
+    ContractDuration  
+0                  3  
+1                  4  
+2                  3  
+3                  4  
+4                  5  
+..               ...  
+75                 3  
+76                 4  
+77                 5  
+78                 6  
+79                 4  
+
+[80 rows x 7 columns] table Contains: Number of records: 80
+2024-08-12 15:27:26,392 - INFO - Data loaded from      PlayerID  TeamID               Name    Position DateOfBirth  Nationality  \
+0           1       1   Daniel Hernandez  Midfielder  1981-03-06      Spanish   
+1           2       1        Henry Brown     Forward  1991-02-06    Brazilian   
+2           3       1   Alexander Miller  Midfielder  1985-03-30  Argentinian   
+3           4       1  Michael Hernandez    Defender  1996-08-06      Spanish   
+4           5       1    Henry Rodriguez     Forward  1995-09-22      English   
+..        ...     ...                ...         ...         ...          ...   
+394       396      20       James Garcia  Goalkeeper  1989-07-20       German   
+395       397      20      Liam Martinez  Midfielder  2000-09-11       German   
+396       398      20      Oliver Miller  Goalkeeper  1989-07-23      Spanish   
+397       399      20    James Rodriguez  Goalkeeper  1982-01-09       French   
+398       400      20  William Hernandez    Defender  1987-11-18      Spanish   
+
+    ContractUntil  MarketValue  
+0      2025-06-30      5000000  
+1      2023-06-30      9000000  
+2      2027-06-30      2000000  
+3      2025-06-30     16000000  
+4      2024-06-30     16000000  
+..            ...          ...  
+394    2024-06-30     10000000  
+395    2025-06-30     50000000  
+396    2025-06-30     26000000  
+397    2025-06-30     23000000  
+398    2023-06-30     22000000  
+
+[399 rows x 8 columns] table . Number of records Before Data Cleaning: 399
+2024-08-12 15:27:26,397 - INFO - Data loaded from      MatchID        Date  HomeTeamID  AwayTeamID  HomeTeamScore  \
+0          1  2023-11-06           5          12              2   
+1          2  2023-08-15           8           3              3   
+2          3  2023-09-21           4           9              1   
+3          4  2023-10-11           7          10              0   
+4          5  2023-12-05           6          11              1   
+..       ...         ...         ...         ...            ...   
+205      206  2022-02-02           9           5              1   
+206      207  2022-12-20          11           8              1   
+207      208  2023-11-24          14          12              4   
+208      209  2022-08-13           4          19              5   
+209      210  2021-07-03          18           4              5   
+
+     AwayTeamScore           Stadium           Referee  
+0                1      Venice Field  Mark Clattenburg  
+1                3  Marseille Ground         Mike Dean  
+2                0       Napoli Park    Anthony Taylor  
+3                2        Lyon Arena    Michael Oliver  
+4                1     Paris Stadium   Martin Atkinson  
+..             ...               ...               ...  
+205              0     Bordeaux Park     Chris Johnson  
+206              3    London Stadium     Michael Brown  
+207              1      Chelsea Park     Michael Brown  
+208              1       Napoli Park       David Smith  
+209              2   Valencia Ground     Michael Jones  
+
+[210 rows x 8 columns] table . Number of records Before Data Cleaning: 210
+2024-08-12 15:27:26,405 - INFO - Data loaded from      MatchID        Date  HomeTeamID  AwayTeamID  HomeTeamScore  \
+0          1  2023-11-06           5          12              2   
+1          2  2023-08-15           8           3              3   
+2          3  2023-09-21           4           9              1   
+3          4  2023-10-11           7          10              0   
+4          5  2023-12-05           6          11              1   
+..       ...         ...         ...         ...            ...   
+205      206  2022-02-02           9           5              1   
+206      207  2022-12-20          11           8              1   
+207      208  2023-11-24          14          12              4   
+208      209  2022-08-13           4          19              5   
+209      210  2021-07-03          18           4              5   
+
+     AwayTeamScore           Stadium           Referee  
+0                1      Venice Field  Mark Clattenburg  
+1                3  Marseille Ground         Mike Dean  
+2                0       Napoli Park    Anthony Taylor  
+3                2        Lyon Arena    Michael Oliver  
+4                1     Paris Stadium   Martin Atkinson  
+..             ...               ...               ...  
+205              0     Bordeaux Park     Chris Johnson  
+206              3    London Stadium     Michael Brown  
+207              1      Chelsea Park     Michael Brown  
+208              1       Napoli Park       David Smith  
+209              2   Valencia Ground     Michael Jones  
+
+[210 rows x 8 columns] table . Number of records Before Data Cleaning: 210
+2024-08-12 15:27:26,413 - INFO - Data loaded from      StatID  PlayerID  MatchID  Goals  Assists  YellowCards  RedCards  \
+0         1       317       56      0      NaN            0         0   
+1         2       290      114      3      NaN            0         0   
+2         3       162       54      1      NaN            0         0   
+3         4        87       84      1      NaN            1         0   
+4         6        43       54      0      NaN            1         0   
+..      ...       ...      ...    ...      ...          ...       ...   
+993     996       138      193      1      2.0            1         1   
+994     997        12      109      1      2.0            0         0   
+995     998       217      122      3      2.0            1         1   
+996     999       391       13      1      1.0            1         1   
+997    1000         3      160      0      2.0            0         0   
+
+     MinutesPlayed  
+0               90  
+1               90  
+2               45  
+3               45  
+4               90  
+..             ...  
+993             45  
+994             45  
+995             75  
+996             75  
+997             45  
+
+[998 rows x 8 columns] table . Number of records Before Data Cleaning: 998
+2024-08-12 15:27:26,416 - INFO - Data loaded from     TransferID  PlayerID  FromTeamID  ToTeamID TransferDate  TransferFee  \
+0            1         1           1         3   2022-01-15    5200000.0   
+1            2         3           1         2   2021-12-10    2200000.0   
+2            3         6           1         4   2023-07-05   30000000.0   
+3            4         9           1         5   2022-08-25   26000000.0   
+4            5        12           1         6   2021-09-15   11000000.0   
+..         ...       ...         ...       ...          ...          ...   
+75          76         4           1         8   2023-10-17   16000000.0   
+76          77        31           2         6   2023-10-24   28000000.0   
+77          78        35           2         3   2023-10-31   16000000.0   
+78          79        16           1        18   2023-11-07    8000000.0   
+79          80        19           1        13   2023-11-14    9000000.0   
+
+    ContractDuration  
+0                  3  
+1                  4  
+2                  3  
+3                  4  
+4                  5  
+..               ...  
+75                 3  
+76                 4  
+77                 5  
+78                 6  
+79                 4  
+
+[80 rows x 7 columns] table . Number of records Before Data Cleaning: 80
+2024-08-12 21:05:12,476 - INFO - Successfully inserted 399 rows into CleanedPlayers table.
+2024-08-12 21:05:12,477 - INFO - 0 errors logged in PlayersErrors table.
+2024-08-12 21:32:40,396 - INFO - Players table: 399 records before cleaning, 399 records after cleaning.
+2024-08-13 03:35:54,909 - INFO - Original number of records  in TransferHistory: 80
+2024-08-13 03:35:54,919 - INFO - Number of outliers removed from TransferHistory: 2
+2024-08-13 03:35:54,921 - INFO - Number of records after cleaning TransferHistory: 78
+2024-08-13 12:44:30,167 - INFO - Number of records of Player Stats before data cleansing:      StatID  PlayerID  MatchID  Goals  Assists  YellowCards  RedCards  \
+0         1       317       56      0      NaN            0         0   
+1         2       290      114      3      NaN            0         0   
+2         3       162       54      1      NaN            0         0   
+3         4        87       84      1      NaN            1         0   
+4         6        43       54      0      NaN            1         0   
+..      ...       ...      ...    ...      ...          ...       ...   
+993     996       138      193      1      2.0            1         1   
+994     997        12      109      1      2.0            0         0   
+995     998       217      122      3      2.0            1         1   
+996     999       391       13      1      1.0            1         1   
+997    1000         3      160      0      2.0            0         0   
+
+     MinutesPlayed  
+0               90  
+1               90  
+2               45  
+3               45  
+4               90  
+..             ...  
+993             45  
+994             45  
+995             75  
+996             75  
+997             45  
+
+[998 rows x 8 columns]
+2024-08-13 12:44:30,170 - INFO - Number of records after data cleansing:      StatID  PlayerID  MatchID  Goals  Assists  YellowCards  RedCards  \
+400     402       363      100      0      2.0            0         0   
+401     403       281      151      3      1.0            0         0   
+402     404       120       60      3      0.0            0         0   
+405     407        25       13      1      1.0            1         0   
+406     408       164      100      1      2.0            0         0   
+..      ...       ...      ...    ...      ...          ...       ...   
+990     993       193      103      2      2.0            1         0   
+991     994       111      131      0      0.0            1         0   
+992     995       199       65      1      2.0            1         0   
+994     997        12      109      1      2.0            0         0   
+997    1000         3      160      0      2.0            0         0   
+
+     MinutesPlayed  
+400             90  
+401             90  
+402             60  
+405             60  
+406             45  
+..             ...  
+990             90  
+991             60  
+992             90  
+994             45  
+997             45  
+
+[432 rows x 8 columns]
+2024-08-13 12:45:01,279 - INFO - Number of records of Player Stats before data cleansing:      StatID  PlayerID  MatchID  Goals  Assists  YellowCards  RedCards  \
+0         1       317       56      0      NaN            0         0   
+1         2       290      114      3      NaN            0         0   
+2         3       162       54      1      NaN            0         0   
+3         4        87       84      1      NaN            1         0   
+4         6        43       54      0      NaN            1         0   
+..      ...       ...      ...    ...      ...          ...       ...   
+993     996       138      193      1      2.0            1         1   
+994     997        12      109      1      2.0            0         0   
+995     998       217      122      3      2.0            1         1   
+996     999       391       13      1      1.0            1         1   
+997    1000         3      160      0      2.0            0         0   
+
+     MinutesPlayed  
+0               90  
+1               90  
+2               45  
+3               45  
+4               90  
+..             ...  
+993             45  
+994             45  
+995             75  
+996             75  
+997             45  
+
+[998 rows x 8 columns]
+2024-08-13 12:45:01,279 - INFO - Number of records of Player Stats after data cleansing:      StatID  PlayerID  MatchID  Goals  Assists  YellowCards  RedCards  \
+400     402       363      100      0      2.0            0         0   
+401     403       281      151      3      1.0            0         0   
+402     404       120       60      3      0.0            0         0   
+405     407        25       13      1      1.0            1         0   
+406     408       164      100      1      2.0            0         0   
+..      ...       ...      ...    ...      ...          ...       ...   
+990     993       193      103      2      2.0            1         0   
+991     994       111      131      0      0.0            1         0   
+992     995       199       65      1      2.0            1         0   
+994     997        12      109      1      2.0            0         0   
+997    1000         3      160      0      2.0            0         0   
+
+     MinutesPlayed  
+400             90  
+401             90  
+402             60  
+405             60  
+406             45  
+..             ...  
+990             90  
+991             60  
+992             90  
+994             45  
+997             45  
+
+[432 rows x 8 columns]
+2024-08-13 12:49:41,924 - INFO - Number of records of Player Stats before data cleansing: 998
+2024-08-13 12:49:41,924 - INFO - Number of records of Player Stats after data cleansing: 432
+2024-08-13 13:51:28,705 - INFO - Number of records of Teams before data cleansing: 20
+2024-08-13 13:51:28,707 - INFO - Number of records of Teams after data cleansing: 0
+2024-08-13 14:42:30,751 - INFO - Number of records of Teams before data cleansing: 20
+2024-08-13 14:42:30,761 - INFO - Number of records of Teams after data cleansing: 20
+2024-08-13 14:49:28,945 - INFO - Number of records of dMatches before data cleansing: 210
+2024-08-13 14:49:28,945 - INFO - Number of records of Matches after data cleansing: 210
+2024-08-14 13:34:00,149 - INFO - Players table: 399 records before cleaning, 399 records after cleaning.
+2024-08-14 13:36:24,845 - INFO - Players table: 399 records before cleaning, 399 records after cleaning.
+2024-08-14 13:36:45,044 - INFO - Original number of records  in TransferHistory: 80
+2024-08-14 13:36:45,044 - INFO - Number of outliers removed from TransferHistory: 2
+2024-08-14 13:36:45,044 - INFO - Number of records after cleaning TransferHistory: 78
+2024-08-14 13:37:02,660 - INFO - Original number of records  in TransferHistory: 80
+2024-08-14 13:37:02,660 - INFO - Number of outliers removed from TransferHistory: 2
+2024-08-14 13:37:02,661 - INFO - Number of records after cleaning TransferHistory: 78
+2024-08-14 13:37:29,420 - INFO - Number of records of Player Stats before data cleansing: 998
+2024-08-14 13:37:29,420 - INFO - Number of records of Player Stats after data cleansing: 432
+2024-08-14 13:37:40,252 - INFO - Number of records of Teams before data cleansing: 20
+2024-08-14 13:37:40,252 - INFO - Number of records of Teams after data cleansing: 20
+2024-08-14 13:37:49,183 - INFO - Number of records of dMatches before data cleansing: 210
+2024-08-14 13:37:49,183 - INFO - Number of records of Matches after data cleansing: 210

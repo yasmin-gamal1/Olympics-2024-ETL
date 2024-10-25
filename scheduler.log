@@ -1,0 +1,10 @@
+2024-08-15 10:21:08,888 - INFO - Starting Jupyter notebook execution
+2024-08-15 10:21:09,108 - ERROR - Error occurred: Command '['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 'C:\\Users\\sweet\\Desktop\\DS Atos intern\\DS Task 3\\task 3.ipynb', '--output', 'output_notebook.ipynb']' returned non-zero exit status 1.
+2024-08-15 10:21:41,474 - INFO - Starting Jupyter notebook execution
+2024-08-15 10:21:41,692 - ERROR - Error occurred: Command '['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 'C:\\Users\\sweet\\Desktop\\DS Atos intern\\DS Task 3\\task 3.ipynb', '--output', 'output_notebook.ipynb']' returned non-zero exit status 1.
+2024-08-15 10:21:41,692 - INFO - Starting Jupyter notebook execution
+2024-08-15 10:21:41,881 - ERROR - Error occurred: Command '['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 'C:\\Users\\sweet\\Desktop\\DS Atos intern\\DS Task 3\\task 3.ipynb', '--output', 'output_notebook.ipynb']' returned non-zero exit status 1.
+2024-08-15 10:22:26,463 - INFO - Starting Jupyter notebook execution
+2024-08-15 10:22:26,681 - ERROR - Error occurred: Command '['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 'C:\\Users\\sweet\\Desktop\\DS Atos intern\\DS Task 3\\task 3.ipynb', '--output', 'output_notebook.ipynb']' returned non-zero exit status 1.
+2024-08-15 10:22:26,681 - INFO - Starting Jupyter notebook execution
+2024-08-15 10:22:26,871 - ERROR - Error occurred: Command '['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 'C:\\Users\\sweet\\Desktop\\DS Atos intern\\DS Task 3\\task 3.ipynb', '--output', 'output_notebook.ipynb']' returned non-zero exit status 1.
